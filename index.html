@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>LISTA</title>
+  <link rel="stylesheet" href="theme.css">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <form>
+          <div class="form-group">
+            <label for="name">Imię</label>
+            <input id="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="surname">Nazwisko</label>
+            <input id="surname" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="grades">Oceny</label>
+            <input id="grades" class="form-control">
+          </div>
+          
+          <button id="create" class="btn btn-success">Utwórz</button>
+        </form>
+      </div>
+      
+      <div class="col-md-6 col-xs-12">
+        <table id="students" class="table">
+          <thead>
+            <tr>
+              <th>Lp.</th>
+              <th>Imię</th>
+              <th>Nazwisko</th>
+              <th>Średnia</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
